@@ -1,0 +1,7 @@
+{
+  "gates": [
+    { "name": "no-todo (vacuous)", "cmd": ["python3", "no_todo_vacuous.py", "{target}"],
+      "good": ["fixtures/good"], "bad": ["fixtures/bad"], "empty": true, "missing": true,
+      "exemptions": [{ "item": "legacy/", "reason": "" }] }
+  ]
+}
